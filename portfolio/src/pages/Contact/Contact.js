@@ -1,9 +1,9 @@
 import {
-    FaEnvelope,
-    FaGithub,
-    FaLinkedinIn,
-    FaMapMarkerAlt,
-    FaPhone
+  FaEnvelope,
+  FaGithub,
+  FaLinkedinIn,
+  FaMapMarkerAlt,
+  FaPhone
 } from "react-icons/fa";
 import { FiShare2 } from "react-icons/fi";
 const Contact = () => {
@@ -111,9 +111,12 @@ const Contact = () => {
               rows="8"
               required
             ></textarea>
-            <button type="submit" className="send-button">
+            <div className="send">
+ <button type="submit" className="send-button">
               Send Message
             </button>
+            </div>
+           
           </form>
         </div>
       </div>

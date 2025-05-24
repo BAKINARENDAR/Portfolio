@@ -58,12 +58,32 @@ const Header = () => {
               <span className="close-btn" onClick={() => setSidebarOpen(false)}>
                 <IoMdClose />
               </span>
-              <p>Home</p>
-              <p>About</p>
-              <p>Resume</p>
-              <p>Certifications</p>
-              <p>Portfolio</p>
-              <p>Contact</p>
+              <Link to="/Home" style={{ textDecoration: "none" }}>
+                <p>Home</p>
+              </Link>
+              <Link to="/About" style={{ textDecoration: "none" }}>
+                <p>About</p>
+              </Link>
+              <Link to="/Resume" style={{ textDecoration: "none" }}>
+                <p>Resume</p>
+              </Link>
+              <Link to="/Certifications" style={{ textDecoration: "none" }}>
+                <p>Certifications</p>
+              </Link>
+              <Link to="/Portfolio" style={{ textDecoration: "none" }}>
+                <p>Portfolio</p>
+              </Link>
+              <Link to="/Contact" style={{ textDecoration: "none" }}>
+                <p>Contact</p>
+              </Link>
+              <a
+                href="https://github.com/BAKINARENDAR"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <p>Github</p>
+              </a>
             </div>
 
             {/* Overlay for mobile when sidebar is open */}

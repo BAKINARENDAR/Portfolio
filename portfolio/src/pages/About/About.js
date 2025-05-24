@@ -1,5 +1,5 @@
 import { IoIosArrowForward } from "react-icons/io";
-
+import picture from "../../images/picture.png";
 const About = () => {
   return (
     <>
@@ -19,7 +19,9 @@ const About = () => {
             </div>
 
             <div className="part2-about">
-              <div className="about-pic"></div>
+              <div className="about-pic">
+                  <img  src={picture} alt=""/>
+              </div>
               <div className="about-me">
                 <h2>Problem Solver & Web Developer.</h2>
 
