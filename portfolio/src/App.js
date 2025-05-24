@@ -1,5 +1,5 @@
 import { createContext, useState } from "react"; // Added createContext import
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Header from "../src/components/header/Header";
 import "./App.css";
 import Footer from "./components/footer/Footer";
@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <MyContext.Provider value={values}>
         {showheaderfooter && <Header />}
         <Routes>
@@ -37,7 +37,7 @@ function App() {
         </Routes>
         {showheaderfooter && <Footer />}
       </MyContext.Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

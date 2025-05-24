@@ -235,10 +235,11 @@
   display: block;
 margin-left: 20px;
   margin-top: -600px; /* Optional: Adjust based on your layout */
+  padding-bottom: 150px;
 
 }
 .home-first{
-  padding-bottom: 50px;
+  padding-bottom: 90px;
 }
 
   .home-content .name h1 {
@@ -510,6 +511,9 @@ margin-left: 42px;
   .p-second-block{
     margin-left: 20px;
   }
+  .skills-container{
+    padding-bottom: 50px;
+  }
 }
 
 
@@ -760,6 +764,29 @@ background-size: contain;
 padding-bottom: 90px;
   
 }
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+width: 360px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  height: auto;
+  padding-bottom: 50px;
+}
+
+
+
 
 }
 

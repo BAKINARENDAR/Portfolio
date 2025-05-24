@@ -20,7 +20,7 @@ const projects = [
   {
     title: 'Portfolio',
     image: portfolio,
-    link: 'https://yourlink.com',
+    link: 'https://bakinarendar.github.io/Portfolio/#/Home',
   },
 ];
 
