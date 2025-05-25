@@ -31,9 +31,9 @@ const About = () => {
                       <IoIosArrowForward className="arrow-style" />
                       <strong>Birthday: </strong> 1 January 2006
                     </p>
-                    <p>
+                    <p style={{cursor:"pointer"}}>
                       <IoIosArrowForward className="arrow-style" />
-                      <strong>Website: </strong> coming soon
+                      <strong>Website: </strong> <a style={{textDecoration:"none", color:"white"}} href="https://bakinarendar.github.io/Portfolio/" >https://bakinarendar.github.io/Portfolio/</a>
                     </p>
                     <p>
                       <IoIosArrowForward className="arrow-style" />
